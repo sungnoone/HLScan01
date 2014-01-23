@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HLScan01</string>
+    <string name="btnStartScan">掃描</string>
+    <string name="txtMessage_text">按下掃描按鈕前，請先確認已安裝zxing元件</string>
+    <string name="textDefaultURL_text">編輯預設網址</string>
+    <string name="textDefaultURL">http://vsrv4.hanlin.com.tw/static</string>
+</resources>

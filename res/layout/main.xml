@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:measureWithLargestChild="false">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnStartScan"
+            android:id="@+id/btnStartScan" android:layout_gravity="center"
+            android:textSize="50dp" android:onClick="onStartScanClick"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMessage" android:layout_gravity="left|center_vertical"
+            android:text="@string/txtMessage_text"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEditUrl" android:layout_gravity="left|center_vertical" android:text="@string/textDefaultURL_text"
+            android:onClick="onEditDialogShow"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="預設網址:"
+            android:id="@+id/label1"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDefaultUrl" android:layout_gravity="left|center_vertical"
+            android:layout_column="1"/>
+</LinearLayout>
+
